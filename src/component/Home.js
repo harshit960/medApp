@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function home() {
   return (
@@ -15,7 +16,8 @@ export default function home() {
         </div>
         <div className="w-96 h-12 left-[24px] top-[104px] absolute">
           <div className="w-96 h-12 left-0 top-0 absolute bg-white rounded-lg shadow" />
-          <img className="w-6 h-6 left-[10px] top-[12px] absolute opacity-70" src="https://via.placeholder.com/25x25" />
+          < SearchIcon className="w-4 h-4" />
+          
           <div className="w-48 h-8 left-[44px] top-[17px] absolute text-black text-xs font-medium">Search for a doctor</div>
         </div>
         <div className="w-full h-12 left-0 bottom-0 fixed">
