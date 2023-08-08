@@ -6,9 +6,9 @@ export default function docProfile() {
       <div className="w-96 h-96 relative bg-sky-500">
         <div className="w-96 h-96 left-0 top-[70px] absolute bg-white rounded-tl-3xl rounded-tr-3xl" />
         <img className="w-96 h-48 left-0 top-[63px] absolute rounded-tl-3xl rounded-tr-3xl" src="https://via.placeholder.com/390x193" />
-        <div className="left-[11px] top-[13px] absolute">
+        <div className="flex flex-row">
           <img className="w-9 h-9 left-0 top-0 absolute" src="https://via.placeholder.com/38x38" />
-          <div className="left-[131px] top-[5px] absolute text-white text-2xl font-bold">Dr. Name</div>
+          <div className=" absolute text-white text-2xl font-bold">Dr. Name fd</div>
         </div>
         <div className="w-28 h-12 left-[151px] top-[274px] absolute">
           <div className="w-20 h-2.5 left-0 top-0 absolute text-neutral-700 text-xl font-medium">Dr. Name</div>
