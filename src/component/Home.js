@@ -18,12 +18,13 @@ export default function home() {
           <img className="w-6 h-6 left-[10px] top-[12px] absolute opacity-70" src="https://via.placeholder.com/25x25" />
           <div className="w-48 h-8 left-[44px] top-[17px] absolute text-black text-xs font-medium">Search for a doctor</div>
         </div>
-        <div className="w-96 h-12 left-0 top-[794px] absolute">
-          <div className="w-96 h-12 left-0 top-0 absolute bg-white" />
-          <img className="w-9 h-9 left-[35px] top-[8px] absolute opacity-80 shadow" src="https://via.placeholder.com/35x36" />
-          <img className="w-9 h-9 left-[321px] top-[8px] absolute opacity-80 shadow" src="https://via.placeholder.com/35x36" />
-          <img className="w-9 h-9 left-[133px] top-[8px] absolute opacity-80 shadow" src="https://via.placeholder.com/35x36" />
-          <img className="w-9 h-9 left-[233px] top-[8px] absolute opacity-80 shadow" src="https://via.placeholder.com/35x36" />
+        <div className="w-full h-12 left-0 bottom-0 fixed">
+          <div className="w-full h-12  bg-white flex flex-row" >
+          <img className=" h-9  opacity-80 shadow" src="https://via.placeholder.com/35x36" />
+          <img className=" h-9  opacity-80 shadow" src="https://via.placeholder.com/35x36" />
+          <img className=" h-9  opacity-80 shadow" src="https://via.placeholder.com/35x36" />
+          <img className=" h-9  opacity-80 shadow" src="https://via.placeholder.com/35x36" />
+          </div>
         </div>
         <div className="w-96 h-48 left-[19px] top-[188px] absolute">
           <div className="w-96 h-48 left-0 top-0 absolute bg-white rounded-md shadow" />
