@@ -3,12 +3,13 @@ import React from 'react'
 export default function docProfile() {
   return (
     <div>
-      <div className="w-96 h-96 relative bg-sky-500">
-        <div className="w-96 h-96 left-0 top-[70px] absolute bg-white rounded-tl-3xl rounded-tr-3xl" />
-        <img className="w-96 h-48 left-0 top-[63px] absolute rounded-tl-3xl rounded-tr-3xl" src="https://via.placeholder.com/390x193" />
+      <div className="w-full h-96 relative bg-sky-500">
+        <div className="w-full h-96 left-0 top-[70px] absolute bg-white rounded-tl-3xl rounded-tr-3xl" >
+          <img className="w-full h-48 rounded-tl-3xl rounded-tr-3xl" src="https://via.placeholder.com/390x193" />
+        </div>
         <div className="flex flex-row">
-          <img className="w-9 h-9 left-0 top-0 absolute" src="https://via.placeholder.com/38x38" />
-          <div className=" absolute text-white text-2xl font-bold">Dr. Name fd</div>
+          <img className=" w-9 h-9 left-0 top-0 absolute" src="https://via.placeholder.com/38x38" />
+          <div className="text-white text-2xl font-bold">Dr. Name fd</div>
         </div>
         <div className="w-28 h-12 left-[151px] top-[274px] absolute">
           <div className="w-20 h-2.5 left-0 top-0 absolute text-neutral-700 text-xl font-medium">Dr. Name</div>
@@ -25,9 +26,10 @@ export default function docProfile() {
             </div>
           </div>
         </div>
-        <div className="w-80 h-14 left-[39px] top-[762px] absolute">
-          <div className="w-80 h-14 left-0 top-0 absolute bg-sky-500 rounded-2xl" />
-          <div className="left-[77px] top-[19px] absolute text-white text-lg font-medium">Book Appointment</div>
+        <div className="w-full h-14 bottom-0 mb-5 fixed flex justify-center">
+          <div className="w-80 h-14 bg-sky-500 rounded-2xl text-white text-lg font-medium flex justify-center " >
+            <div className='self-center'>Book Appointment</div>
+          </div>
         </div>
       </div>
     </div>
